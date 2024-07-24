@@ -1,0 +1,6 @@
+*~
+*.swp
+*.test
+*.out
+bench*.txt
+.DS_Store
