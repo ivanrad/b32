@@ -9,6 +9,7 @@ import "bytes"
 const StdEncoding = "abcdefghijklmnopqrstuvwxyz234567"
 
 var (
+	_      [0]struct{} = [len(StdEncoding) - 32]struct{}{}
 	encMap [32]byte
 	decMap [256]byte
 )
